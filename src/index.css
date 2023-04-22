@@ -1,3 +1,7 @@
+:root {
+  --gray: #71767B
+}
+
 html {
   font-size: 16px;
 }
@@ -24,4 +28,11 @@ button {
   color: #fff;
   text-align: left;
   cursor: pointer;
+}
+
+.mr-0-5 {
+  margin-right: 0.5rem;
+}
+.mr-1 {
+  margin-right: 1rem;
 }

@@ -1,0 +1,7 @@
+.feed {
+  width: 600px;
+  max-width: 100%;
+  margin: auto;
+  border-left: 1px solid #2F3336;
+  border-right: 1px solid #2F3336;
+}

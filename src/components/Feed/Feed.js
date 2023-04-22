@@ -1,3 +1,4 @@
+import './Feed.css'
 import Tweet from "../Tweet/Tweet"
 
 const tweets = [
@@ -47,7 +48,7 @@ const tweets = [
 
 function Feed() {
   return (
-    <div>
+    <div class='feed'>
       feed component
       {tweets.map((tweet) => (<Tweet tweet={tweet} />))}
     </div>
