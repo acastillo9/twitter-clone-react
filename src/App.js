@@ -3,7 +3,9 @@ import Feed from './components/Feed/Feed'
 
 function App() {
   return (
-    <Feed />
+    <>
+      <Feed />
+    </>
   );
 }
 

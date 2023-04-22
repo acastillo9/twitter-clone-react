@@ -3,9 +3,7 @@ import Tweet from "../Tweet/Tweet"
 
 const tweets = [
   {
-    "_id": {
-      "$oid": "641f14c0fe773d357e95afe1"
-    },
+    "id": "641f14c0fe773d357e95afe1",
     "creationDate": "2023-03-25T10:30:30.000Z",
     "content": "Primer tweet",
     "likes": 0,
@@ -24,9 +22,7 @@ const tweets = [
     "retweetTo": {}
   },
   {
-    "_id": {
-      "$oid": "641f14c0fe773d357e95afe1"
-    },
+    "id": "641f14c0fe773d357e95afe2",
     "creationDate": "2023-03-25T10:30:30.000Z",
     "content": "Otro tweet",
     "likes": 0,
@@ -48,9 +44,9 @@ const tweets = [
 
 function Feed() {
   return (
-    <div class='feed'>
+    <div className='feed'>
       feed component
-      {tweets.map((tweet) => (<Tweet tweet={tweet} />))}
+      {tweets.map((tweet) => (<Tweet key={tweet.id} tweet={tweet} />))}
     </div>
   )
 }

@@ -25,7 +25,6 @@ code {
 button {
   background: none;
   border: none;
-  color: #fff;
   text-align: left;
   cursor: pointer;
 }
@@ -35,4 +34,8 @@ button {
 }
 .mr-1 {
   margin-right: 1rem;
+}
+
+.modal {
+  display: none;
 }

@@ -2,8 +2,13 @@ import './Tweet.css'
 import { FaRegComment, FaRetweet } from 'react-icons/fa'
 
 function Tweet({ tweet }) {
+
+  function handleClick() {
+    console.log('comments clicked')
+  }
+
   return (
-    <button className="tweet">
+    <div className="tweet">
       <div className='tweet-user-image'>
         <a href='/'>
           <img src={tweet.user.image} alt={tweet.user.username} />
@@ -18,7 +23,7 @@ function Tweet({ tweet }) {
           <p>{tweet.content}</p>
         </div>
         <div className='tweet-content-footer'>
-          <button className='tweet-action-button comments-button'>
+          <button className='tweet-action-button comments-button' onClick={handleClick}>
             <span className='icon-wrapper mr-0-5'>
               <FaRegComment />
             </span>
@@ -39,7 +44,7 @@ function Tweet({ tweet }) {
           </button>
         </div>
       </div>
-    </button>
+    </div>
   )
 }
 
