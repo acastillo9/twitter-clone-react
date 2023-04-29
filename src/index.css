@@ -39,3 +39,11 @@ button {
 .modal {
   display: none;
 }
+
+.btn {
+  background-color: #1D9BF0;
+  color: white;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
