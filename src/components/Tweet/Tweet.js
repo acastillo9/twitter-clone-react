@@ -1,14 +1,21 @@
 import './Tweet.css'
 import { FaRegComment, FaRetweet } from 'react-icons/fa'
+import { useNavigate } from 'react-router-dom'
 
 function Tweet({ tweet }) {
+
+  const navigate = useNavigate();
 
   function handleClick() {
     console.log('comments clicked')
   }
 
+  function navigateToTweet() {
+    navigate(`/tweets/${tweet.id}`)
+  }
+
   return (
-    <div className="tweet">
+    <div className="tweet" onClick={navigateToTweet}>
       <div className='tweet-user-image'>
         <a href='/'>
           <img src={tweet.user.image} alt={tweet.user.username} />
