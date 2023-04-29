@@ -1,44 +1,6 @@
 {
   "tweets": [
     {
-      "id": "641f14c0fe773d357e95afe1",
-      "creationDate": "2023-03-25T10:30:30.000Z",
-      "content": "Primer tweet",
-      "likes": 0,
-      "rt": 1,
-      "views": 0,
-      "media": [],
-      "comments": 1,
-      "user": {
-        "_id": {
-          "$oid": "641f034efe773d357e95afda"
-        },
-        "name": "Esteban",
-        "username": "@esteband",
-        "image": "https://vader.news/__export/1650406255213/sites/gadgets/img/2022/04/19/outlander_jamie.jpg_1175821642.jpg"
-      },
-      "retweetTo": {}
-    },
-    {
-      "id": "641f14c0fe773d357e95afe2",
-      "creationDate": "2023-03-25T10:30:30.000Z",
-      "content": "Otro tweet",
-      "likes": 0,
-      "rt": 1,
-      "views": 0,
-      "media": [],
-      "comments": 1,
-      "user": {
-        "_id": {
-          "$oid": "641f034efe773d357e95afda"
-        },
-        "name": "Esteban",
-        "username": "@esteband",
-        "image": "https://vader.news/__export/1650406255213/sites/gadgets/img/2022/04/19/outlander_jamie.jpg_1175821642.jpg"
-      },
-      "retweetTo": {}
-    },
-    {
       "id": "641f14c0fe773d357e95afe3",
       "creationDate": "2023-03-25T10:30:30.000Z",
       "content": "respuesta al primer tweet",
@@ -75,52 +37,6 @@
         "image": "https://vader.news/__export/1650406255213/sites/gadgets/img/2022/04/19/outlander_jamie.jpg_1175821642.jpg"
       },
       "replayTo": "641f14c0fe773d357e95afe1"
-    },
-    {
-      "id": 1,
-      "creationDate": "2023-04-29T14:56:34.854Z",
-      "content": "testing",
-      "likes": 0,
-      "rt": 0,
-      "views": 0,
-      "media": [],
-      "comments": 0,
-      "user": {
-        "id": "641f034efe773d357e95afda",
-        "name": "Esteban",
-        "username": "@esteband",
-        "image": "https://vader.news/__export/1650406255213/sites/gadgets/img/2022/04/19/outlander_jamie.jpg_1175821642.jpg"
-      }
-    },
-    {
-      "id": "57412c0d-bbc1-4317-8850-55332aee5ff3",
-      "creationDate": "2023-04-29T16:04:41.675Z",
-      "content": "nuevo tweet",
-      "likes": 0,
-      "rt": 0,
-      "views": 0,
-      "media": [],
-      "comments": 0,
-      "user": {
-        "name": "Esteban",
-        "username": "@esteband",
-        "image": "https://vader.news/__export/1650406255213/sites/gadgets/img/2022/04/19/outlander_jamie.jpg_1175821642.jpg"
-      }
-    },
-    {
-      "id": "369c6993-40ba-4cf5-8a0a-e5fe09784ec2",
-      "creationDate": "2023-04-29T16:07:17.992Z",
-      "content": "test",
-      "likes": 0,
-      "rt": 0,
-      "views": 0,
-      "media": [],
-      "comments": 0,
-      "user": {
-        "name": "Esteban",
-        "username": "@esteband",
-        "image": "https://vader.news/__export/1650406255213/sites/gadgets/img/2022/04/19/outlander_jamie.jpg_1175821642.jpg"
-      }
     }
   ]
 }

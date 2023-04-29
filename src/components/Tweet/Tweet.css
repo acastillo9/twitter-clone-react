@@ -38,22 +38,25 @@
   display: flex;
   justify-content: space-between;
 }
-.tweet .tweet-content .tweet-content-footer .tweet-action-button {
+.tweet .tweet-content .tweet-action-button {
   color: var(--gray);
 }
-.tweet .tweet-content .tweet-content-footer .tweet-action-button.comments-button:hover {
+.tweet .tweet-content .tweet-action-button.comments-button:hover {
   color: #1D9BF0;
 }
-.tweet .tweet-content .tweet-content-footer .tweet-action-button.rt-button:hover {
+.tweet .tweet-content .tweet-action-button.rt-button:hover {
   color: rgb(0, 186, 124);
 }
-.tweet .tweet-content .tweet-content-footer .tweet-action-button .icon-wrapper {
+.tweet .tweet-content .tweet-action-button .icon-wrapper {
   padding: 0.5rem;
   border-radius: 30px;
 }
-.tweet .tweet-content .tweet-content-footer .tweet-action-button.comments-button:hover .icon-wrapper {
+.tweet .tweet-content .tweet-action-button.comments-button:hover .icon-wrapper {
   background-color: rgba(29, 155, 240, 0.1);
 }
-.tweet .tweet-content .tweet-content-footer .tweet-action-button.rt-button:hover .icon-wrapper {
+.tweet .tweet-content .tweet-action-button.rt-button:hover .icon-wrapper {
   background-color: rgba(0, 186, 124, 0.1);
+}
+.tweet .tweet-content .tweet-action-button.delete-button:hover {
+  color: red
 }

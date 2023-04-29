@@ -48,13 +48,17 @@ function Feed() {
     })
   }
 
+  function deleteTweet(tweetId) {
+    setTweets(tweets.filter((tweet) => tweet.id !== tweetId))
+  }
+
   return (
     <div className='feed'>
       <div>
         <input type="text" onChange={(e) => setNewTweetText(e.target.value)} />
         <button className="btn" type="button" onClick={handleNewTweet}>Tweet</button>
       </div>
-      {tweets.map((tweet) => (<Tweet key={tweet.id} tweet={tweet} />))}
+      {tweets.map((tweet) => (<Tweet key={tweet.id} tweet={tweet} onDeleteTweet={deleteTweet} />))}
     </div>
   )
 }
